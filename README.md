@@ -1,39 +1,28 @@
-Project Overview:
+## Overview of Election Audit: ##
 
-A Colorado Board of Eleections employee has tasked us with completing an audiot of a recent local election. He has specifically tasked us with the following to complete.
-
-1. Calculate the total number of votes casted during the election.
-2. Get a complete list of candidates who recieved votes during the election.
-3. Calculate the total number of votes each candidate recieved.
-4. Calculate the total percentage of votes each candidate recieved.
-5. Determine the winner of the election based on popular vote via this data.
-
-
-
-Resources:
-
-Data Source: Election_results.csv
-
-Software: Python 3.7, Visual Studio Code 1.57
+The Colorado Board of Elections has presented a task for us to help with an audit of a recent election. He wanted us to use Python specifically to help with this audit, and also provided us with the file with all the untallied votes. In addition, we were tasked with not only finding out the winner of the election, but also finding the voter turnout of each county, the percentage of votes from each county out of the total turnout, and which county had the highest turn out.
 
 
 
 
-Summary:
+## Election Audit Results: ##
 
-The analysis of the election data revealed that:
+- There were a total number of 369,711 votes cast during the election.
+- The total number of votes and the percentage of votes for each county were as follows:
+    Jefferson: 10.5% (38,855)
+    Denver: 82.8% (306,055)
+    Arapahoe: 6.7% (24,801)
+- The county with the largest number of votes was Denver County.
 
-- There were 369,711 votes total cast during the election
+![County Turnout](https://github.com/BrieonaT/election-analysis/blob/main/Resources/County_Turnout.png)
 
--The candidates were:
-1. Charles Casper Stockham
-2. Diana DeGette
-3. Raymon Anthony Doane
+- The total number of votes and the percentage of votes for each candidate were as follows:
+    Charles Casper Stockham: 23.0% (85,213)
+    Diana DeGette: 73.8% (272,892)
+    Raymon Anthony Doane: 3.1% (11,606)
+- The candidate who won the election was Diana DeGette, who had 272,892 total votes, 73.8% of all votes.
 
-The candidate results were:
-1. Charles Casper Stockham recieved 23.0% of the vote, with a total number of votes being 85,213.
-2. Diana DeGette recieved 73.8% of the vote, with a total number of votes being 272,892.
-3. Raymon Anthony Doane recieved 3.1% of the vote, with a total number of votes being 11,606.
+![Winning Candidate](https://github.com/BrieonaT/election-analysis/blob/main/Resources/Winning_Canidate.png)
 
-The winner of the election was:
-Diana DeGette recieved 73.8% of the vote, with a total number of votes being 272,892.
+## Election-Audit Summary: ##
+In addition, this script can be modified to be used in similar situations, such as future elections. A way you could modify the script for further use comes with the fact you could easily swap out current candidates for future ones, along with other information that was provided, such as total votes and which counties the votes were from. You can simply take the skeleton of the current code and use it for another data set of a similar set up with little changes. You could also expand upon the data you're extracting if you were using a data set with additional information, such as getting percentages of voter's genders, age ranges, ethnicities, affiliated political parties, etcetera. It would be easy to take the pre-existing code and add those factors by adding in more code that's similar to what's already been provided.
