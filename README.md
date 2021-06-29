@@ -1,6 +1,6 @@
 ## Overview of Election Audit: ##
 
-The Colorado Board of Elections has presented a task for us to help with an audit of a recent election. He wanted us to use Python specifically to help with this audit, and also provided us with the file with all the untallied votes. In addition, we were tasked with not only finding out the winner of the election, but also finding the voter turnout of each county, the percentage of votes from each county out of the total turnout, and which county had the highest turn out.
+The Colorado Board of Elections has presented a task for us to help with an audit of a recent election. They wanted us to use Python specifically to help with this audit, and also provided us with the file with all the untallied votes. In addition, we were tasked with not only finding out the winner of the election, but also finding the voter turnout of each county, the percentage of votes from each county out of the total turnout, and which county had the highest turn out.
 
 
 
